@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.wrangler/
+node_modules/
+*.log
