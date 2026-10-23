@@ -44,7 +44,8 @@ DNS・メール用レコードの再設定は不要です。
 
 このリポジトリは公開用ファイルのみを含み、内部の制作メモ、過去の原稿、認証情報は含めません。
 計測はGA4（`G-V0Z1WVBZR7`）で、公開ドメインのみ有効です。ローカル・pages.devでは計測しません。
-現在は仮公開用の `noindex` / robots.txt設定を維持しています。
+トップページは検索公開済みです（canonical・OGP・JSON-LD・`site/sitemap.xml`）。`analytics-info.html` のみ `noindex` を維持し、サイトマップにも含めません。
+`sustella-home.pages.dev` から本番ドメインへの301転送は、Cloudflareダッシュボードの Bulk Redirects で設定します（Pagesの `_redirects` はドメイン単位の転送に非対応）。
 
 ## 費用
 
