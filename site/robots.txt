@@ -1,5 +1,4 @@
-   User-agent: *
-   Allow: /
+User-agent: *
+Allow: /
 
-   Sitemap: https://www.sustella-jp.com/sitemap.xmlUser-agent: *
-Disallow: /
+Sitemap: https://www.sustella-jp.com/sitemap.xml
